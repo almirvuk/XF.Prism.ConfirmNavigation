@@ -5,7 +5,8 @@
              Title="View B">
     <ContentPage.Content>
         
-        <StackLayout VerticalOptions="Center">
+        <StackLayout VerticalOptions="Center" 
+                     Margin="16">
         
             <Label Text="You have made it, congrats!"
                    FontAttributes="Bold"

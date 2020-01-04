@@ -1,7 +1,6 @@
-﻿using Prism.Commands;
+﻿using Prism.Navigation;
+using Prism.Commands;
 using Prism.Mvvm;
-using Prism.Navigation;
-using System;
 
 namespace XF.Prism.ConfirmNavigation.ViewModels
 {
