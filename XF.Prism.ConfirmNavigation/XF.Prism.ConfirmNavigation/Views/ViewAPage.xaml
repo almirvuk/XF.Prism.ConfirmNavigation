@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Prism.ConfirmNavigation.Views.ViewAPage"
+             Title="IConfirmNavigation">
+    
+    <ContentPage.Content>
+        
+        <StackLayout Margin="16" 
+                     VerticalOptions="Center">
+            
+            <Label Text="Can navigate away?"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+            
+            <Switch IsToggled="{Binding CanNavigateAway}" 
+                    HorizontalOptions="Center" />
+
+            <Button Text="Navigate Away" 
+                    HorizontalOptions="Fill"
+                    Command="{Binding NavigateAwayCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
